@@ -66,8 +66,8 @@ end
 
 local cubegame = {
     name = "cubegame";
-    entrypoints = { "cubes", "validsum", "powersum" };
-    keywords = { "Game" };
+    entrypoints = { "cubes" };
+    keywords = { "Game", "validsum", "powersum" };
     expression = cube_expr;
 }
 
